@@ -65,7 +65,7 @@ spark()
   do
     _echo -n ${ticks[$(( ((($n-$min)<<8)/$f) ))]}
   done
-  echo "${min}->${max}"
+  echo " ${min}->${max} [${#*}]"
   _echo
 }
 
